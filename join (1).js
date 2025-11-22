@@ -10,5 +10,5 @@ export default function handler(req, res) {
     tokens[token] = expire;
 
     // הפניה אמינה לוואטסאפ
-    res.redirect(302, `https://chat.whatsapp.com/I5gl9o1oPTUKTowihWFZOW?token=${token}`);
+    res.redirect(302, `https://chat.whatsapp.com/LDTYL16qlLKElBe9B63X9G?token=${token}`);
 }
