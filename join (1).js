@@ -9,6 +9,6 @@ export default function handler(req, res) {
     const expire = Date.now() + 2*60*1000; // 2 דקות
     tokens[token] = expire;
 
-    // הפניה אמינה לוואטסאפ
+
     res.redirect(302, `https://chat.whatsapp.com/LDTYL16qlLKElBe9B63X9G?token=${token}`);
 }
